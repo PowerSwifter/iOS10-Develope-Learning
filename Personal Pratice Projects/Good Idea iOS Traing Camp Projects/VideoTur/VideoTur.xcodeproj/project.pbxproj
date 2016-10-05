@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B464A8A1D475F3200FC2560 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B464A891D475F3200FC2560 /* AppDelegate.swift */; };
+		8B464A8C1D475F3200FC2560 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B464A8B1D475F3200FC2560 /* ViewController.swift */; };
+		8B464A8F1D475F3200FC2560 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B464A8D1D475F3200FC2560 /* Main.storyboard */; };
+		8B464A911D475F3200FC2560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B464A901D475F3200FC2560 /* Assets.xcassets */; };
+		8B464A941D475F3200FC2560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B464A921D475F3200FC2560 /* LaunchScreen.storyboard */; };
+		8B464A9F1D475F3200FC2560 /* VideoTurTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B464A9E1D475F3200FC2560 /* VideoTurTests.swift */; };
+		8B464AAA1D475F3200FC2560 /* VideoTurUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B464AA91D475F3200FC2560 /* VideoTurUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B464A9B1D475F3200FC2560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B464A7E1D475F3200FC2560 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B464A851D475F3200FC2560;
+			remoteInfo = VideoTur;
+		};
+		8B464AA61D475F3200FC2560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B464A7E1D475F3200FC2560 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B464A851D475F3200FC2560;
+			remoteInfo = VideoTur;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B464A861D475F3200FC2560 /* VideoTur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoTur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B464A891D475F3200FC2560 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B464A8B1D475F3200FC2560 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B464A8E1D475F3200FC2560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B464A901D475F3200FC2560 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B464A931D475F3200FC2560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B464A951D475F3200FC2560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B464A9A1D475F3200FC2560 /* VideoTurTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoTurTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B464A9E1D475F3200FC2560 /* VideoTurTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTurTests.swift; sourceTree = "<group>"; };
+		8B464AA01D475F3200FC2560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B464AA51D475F3200FC2560 /* VideoTurUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoTurUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B464AA91D475F3200FC2560 /* VideoTurUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTurUITests.swift; sourceTree = "<group>"; };
+		8B464AAB1D475F3200FC2560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B464A831D475F3200FC2560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B464A971D475F3200FC2560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B464AA21D475F3200FC2560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B464A7D1D475F3200FC2560 = {
+			isa = PBXGroup;
+			children = (
+				8B464A881D475F3200FC2560 /* VideoTur */,
+				8B464A9D1D475F3200FC2560 /* VideoTurTests */,
+				8B464AA81D475F3200FC2560 /* VideoTurUITests */,
+				8B464A871D475F3200FC2560 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B464A871D475F3200FC2560 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B464A861D475F3200FC2560 /* VideoTur.app */,
+				8B464A9A1D475F3200FC2560 /* VideoTurTests.xctest */,
+				8B464AA51D475F3200FC2560 /* VideoTurUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B464A881D475F3200FC2560 /* VideoTur */ = {
+			isa = PBXGroup;
+			children = (
+				8B464A891D475F3200FC2560 /* AppDelegate.swift */,
+				8B464A8B1D475F3200FC2560 /* ViewController.swift */,
+				8B464A8D1D475F3200FC2560 /* Main.storyboard */,
+				8B464A901D475F3200FC2560 /* Assets.xcassets */,
+				8B464A921D475F3200FC2560 /* LaunchScreen.storyboard */,
+				8B464A951D475F3200FC2560 /* Info.plist */,
+			);
+			path = VideoTur;
+			sourceTree = "<group>";
+		};
+		8B464A9D1D475F3200FC2560 /* VideoTurTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B464A9E1D475F3200FC2560 /* VideoTurTests.swift */,
+				8B464AA01D475F3200FC2560 /* Info.plist */,
+			);
+			path = VideoTurTests;
+			sourceTree = "<group>";
+		};
+		8B464AA81D475F3200FC2560 /* VideoTurUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B464AA91D475F3200FC2560 /* VideoTurUITests.swift */,
+				8B464AAB1D475F3200FC2560 /* Info.plist */,
+			);
+			path = VideoTurUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B464A851D475F3200FC2560 /* VideoTur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B464AAE1D475F3200FC2560 /* Build configuration list for PBXNativeTarget "VideoTur" */;
+			buildPhases = (
+				8B464A821D475F3200FC2560 /* Sources */,
+				8B464A831D475F3200FC2560 /* Frameworks */,
+				8B464A841D475F3200FC2560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoTur;
+			productName = VideoTur;
+			productReference = 8B464A861D475F3200FC2560 /* VideoTur.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B464A991D475F3200FC2560 /* VideoTurTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B464AB11D475F3200FC2560 /* Build configuration list for PBXNativeTarget "VideoTurTests" */;
+			buildPhases = (
+				8B464A961D475F3200FC2560 /* Sources */,
+				8B464A971D475F3200FC2560 /* Frameworks */,
+				8B464A981D475F3200FC2560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B464A9C1D475F3200FC2560 /* PBXTargetDependency */,
+			);
+			name = VideoTurTests;
+			productName = VideoTurTests;
+			productReference = 8B464A9A1D475F3200FC2560 /* VideoTurTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B464AA41D475F3200FC2560 /* VideoTurUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B464AB41D475F3200FC2560 /* Build configuration list for PBXNativeTarget "VideoTurUITests" */;
+			buildPhases = (
+				8B464AA11D475F3200FC2560 /* Sources */,
+				8B464AA21D475F3200FC2560 /* Frameworks */,
+				8B464AA31D475F3200FC2560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B464AA71D475F3200FC2560 /* PBXTargetDependency */,
+			);
+			name = VideoTurUITests;
+			productName = VideoTurUITests;
+			productReference = 8B464AA51D475F3200FC2560 /* VideoTurUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B464A7E1D475F3200FC2560 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Boshi Li";
+				TargetAttributes = {
+					8B464A851D475F3200FC2560 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZK629W38T6;
+					};
+					8B464A991D475F3200FC2560 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZK629W38T6;
+						TestTargetID = 8B464A851D475F3200FC2560;
+					};
+					8B464AA41D475F3200FC2560 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZK629W38T6;
+						TestTargetID = 8B464A851D475F3200FC2560;
+					};
+				};
+			};
+			buildConfigurationList = 8B464A811D475F3200FC2560 /* Build configuration list for PBXProject "VideoTur" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B464A7D1D475F3200FC2560;
+			productRefGroup = 8B464A871D475F3200FC2560 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B464A851D475F3200FC2560 /* VideoTur */,
+				8B464A991D475F3200FC2560 /* VideoTurTests */,
+				8B464AA41D475F3200FC2560 /* VideoTurUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B464A841D475F3200FC2560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B464A941D475F3200FC2560 /* LaunchScreen.storyboard in Resources */,
+				8B464A911D475F3200FC2560 /* Assets.xcassets in Resources */,
+				8B464A8F1D475F3200FC2560 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B464A981D475F3200FC2560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B464AA31D475F3200FC2560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B464A821D475F3200FC2560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B464A8C1D475F3200FC2560 /* ViewController.swift in Sources */,
+				8B464A8A1D475F3200FC2560 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B464A961D475F3200FC2560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B464A9F1D475F3200FC2560 /* VideoTurTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B464AA11D475F3200FC2560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B464AAA1D475F3200FC2560 /* VideoTurUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B464A9C1D475F3200FC2560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B464A851D475F3200FC2560 /* VideoTur */;
+			targetProxy = 8B464A9B1D475F3200FC2560 /* PBXContainerItemProxy */;
+		};
+		8B464AA71D475F3200FC2560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B464A851D475F3200FC2560 /* VideoTur */;
+			targetProxy = 8B464AA61D475F3200FC2560 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B464A8D1D475F3200FC2560 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B464A8E1D475F3200FC2560 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B464A921D475F3200FC2560 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B464A931D475F3200FC2560 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B464AAC1D475F3200FC2560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B464AAD1D475F3200FC2560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B464AAF1D475F3200FC2560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VideoTur/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Boshi.VideoTur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B464AB01D475F3200FC2560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VideoTur/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Boshi.VideoTur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B464AB21D475F3200FC2560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VideoTurTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Boshi.VideoTurTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoTur.app/VideoTur";
+			};
+			name = Debug;
+		};
+		8B464AB31D475F3200FC2560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VideoTurTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Boshi.VideoTurTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoTur.app/VideoTur";
+			};
+			name = Release;
+		};
+		8B464AB51D475F3200FC2560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VideoTurUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Boshi.VideoTurUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VideoTur;
+			};
+			name = Debug;
+		};
+		8B464AB61D475F3200FC2560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VideoTurUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Boshi.VideoTurUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VideoTur;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B464A811D475F3200FC2560 /* Build configuration list for PBXProject "VideoTur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B464AAC1D475F3200FC2560 /* Debug */,
+				8B464AAD1D475F3200FC2560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B464AAE1D475F3200FC2560 /* Build configuration list for PBXNativeTarget "VideoTur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B464AAF1D475F3200FC2560 /* Debug */,
+				8B464AB01D475F3200FC2560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B464AB11D475F3200FC2560 /* Build configuration list for PBXNativeTarget "VideoTurTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B464AB21D475F3200FC2560 /* Debug */,
+				8B464AB31D475F3200FC2560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B464AB41D475F3200FC2560 /* Build configuration list for PBXNativeTarget "VideoTurUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B464AB51D475F3200FC2560 /* Debug */,
+				8B464AB61D475F3200FC2560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B464A7E1D475F3200FC2560 /* Project object */;
+}

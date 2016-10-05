@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CG_ItemChecker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CG Item Checker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zaT-lm-2ag">
+                                <rect key="frame" x="203" y="28" width="194" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" onImage="on_toggles.png" offImage="onoff_toggles.png" translatesAutoresizingMaskIntoConstraints="NO" id="6mc-ve-zmb">
+                                <rect key="frame" x="519" y="124" width="51" height="31"/>
+                                <connections>
+                                    <action selector="SwitchChanged00:" destination="BYZ-38-t0r" eventType="valueChanged" id="5Sa-Il-zCm"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="f19900890" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8J4-7S-bqh">
+                                <rect key="frame" x="25" y="151" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mfh-Pq-ank">
+                                <rect key="frame" x="25" y="80" width="74" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warehouse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WB8-ee-F0p">
+                                <rect key="frame" x="404" y="80" width="99" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Statue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q5A-Tb-jBS">
+                                <rect key="frame" x="513" y="80" width="57" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="哈比二儲-魚翅" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2Z-yN-R1I">
+                                <rect key="frame" x="402" y="169" width="97" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="哈比倉儲-魚翅" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eO6-Wr-EId">
+                                <rect key="frame" x="402" y="130" width="97" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" onImage="on_toggles.png" offImage="onoff_toggles.png" translatesAutoresizingMaskIntoConstraints="NO" id="Dby-kr-9hT">
+                                <rect key="frame" x="519" y="197" width="51" height="31"/>
+                                <connections>
+                                    <action selector="SwitchChanged02:" destination="BYZ-38-t0r" eventType="valueChanged" id="819-hY-Yqc"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="q19900890" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gx6-FW-gnO">
+                                <rect key="frame" x="25" y="224" width="90" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="哈比肆儲-魚翅" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yE6-ig-yIp">
+                                <rect key="frame" x="402" y="242" width="97" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="哈比三儲-魚翅" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WwR-CO-y5q">
+                                <rect key="frame" x="402" y="203" width="97" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" onImage="on_toggles.png" offImage="onoff_toggles.png" translatesAutoresizingMaskIntoConstraints="NO" id="RG6-Jh-xDP">
+                                <rect key="frame" x="519" y="234" width="51" height="31"/>
+                                <connections>
+                                    <action selector="SwitchChanged03:" destination="BYZ-38-t0r" eventType="valueChanged" id="XAB-Px-3R8"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" onImage="on_toggles.png" offImage="onoff_toggles.png" translatesAutoresizingMaskIntoConstraints="NO" id="JxY-wS-2Ha">
+                                <rect key="frame" x="519" y="270" width="51" height="31"/>
+                                <connections>
+                                    <action selector="SwitchChanged04:" destination="BYZ-38-t0r" eventType="valueChanged" id="uON-tq-onD"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="h19900890" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wcL-zm-seU">
+                                <rect key="frame" x="25" y="297" width="89" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HAf-6S-EM6">
+                                <rect key="frame" x="415" y="315" width="84" height="18"/>
+                                <string key="text">哈比二儲-鹽	</string>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" onImage="on_toggles.png" offImage="onoff_toggles.png" translatesAutoresizingMaskIntoConstraints="NO" id="C9i-3o-1Y1">
+                                <rect key="frame" x="519" y="307" width="51" height="31"/>
+                                <connections>
+                                    <action selector="SwitchChanged05:" destination="BYZ-38-t0r" eventType="valueChanged" id="SML-rc-54S"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" onImage="on_toggles.png" offImage="onoff_toggles.png" translatesAutoresizingMaskIntoConstraints="NO" id="huc-jW-7a2">
+                                <rect key="frame" x="519" y="343" width="51" height="31"/>
+                                <connections>
+                                    <action selector="SwitchChanged06:" destination="BYZ-38-t0r" eventType="valueChanged" id="Exg-t4-bvW"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wvc-SY-bGn">
+                                <rect key="frame" x="374" y="388" width="125" height="18"/>
+                                <string key="text">	哈比二儲-胡椒</string>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="哈比倉儲-胡椒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wo0-0k-9mL">
+                                <rect key="frame" x="402" y="349" width="97" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" onImage="on_toggles.png" offImage="onoff_toggles.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vsl-6T-EZd">
+                                <rect key="frame" x="519" y="380" width="51" height="31"/>
+                                <connections>
+                                    <action selector="SwitchChanged07:" destination="BYZ-38-t0r" eventType="valueChanged" id="fHH-fh-uYc"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" onImage="on_toggles.png" offImage="onoff_toggles.png" translatesAutoresizingMaskIntoConstraints="NO" id="UOW-1J-WZC">
+                                <rect key="frame" x="519" y="416" width="51" height="31"/>
+                                <connections>
+                                    <action selector="SwitchChanged08:" destination="BYZ-38-t0r" eventType="valueChanged" id="2I9-hq-khd"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="j19900890" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8Z-AA-lk9">
+                                <rect key="frame" x="25" y="443" width="83" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="哈比二儲-蔥" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QXK-Ux-1uP">
+                                <rect key="frame" x="417" y="461" width="82" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="哈比倉儲-蔥" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iay-D3-sMR">
+                                <rect key="frame" x="417" y="422" width="82" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" onImage="on_toggles.png" offImage="onoff_toggles.png" translatesAutoresizingMaskIntoConstraints="NO" id="3QI-2f-ygJ">
+                                <rect key="frame" x="519" y="453" width="51" height="31"/>
+                                <connections>
+                                    <action selector="SwitchChanged09:" destination="BYZ-38-t0r" eventType="valueChanged" id="iwF-T6-o7V"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="i19900890" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HI3-Ks-ZKc">
+                                <rect key="frame" x="25" y="516" width="83" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="哈比二儲-蛋" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FUU-XA-iAg">
+                                <rect key="frame" x="417" y="534" width="82" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="哈比倉儲-蛋" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7XH-fc-h9h">
+                                <rect key="frame" x="417" y="495" width="82" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" onImage="on_toggles.png" offImage="onoff_toggles.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ktz-Bi-oYT">
+                                <rect key="frame" x="519" y="526" width="51" height="31"/>
+                                <connections>
+                                    <action selector="SwitchChanged11:" destination="BYZ-38-t0r" eventType="valueChanged" id="KNQ-vy-M2s"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="哈比倉儲-鹽" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4J6-zm-Wvq">
+                                <rect key="frame" x="417" y="276" width="82" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="g19900890" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yAB-1b-uvQ">
+                                <rect key="frame" x="25" y="370" width="90" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" onImage="on_toggles.png" offImage="onoff_toggles.png" translatesAutoresizingMaskIntoConstraints="NO" id="KOZ-Nz-FWo">
+                                <rect key="frame" x="519" y="161" width="51" height="31"/>
+                                <connections>
+                                    <action selector="SwitchChanged01:" destination="BYZ-38-t0r" eventType="valueChanged" id="eOz-qq-qH2"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" onImage="on_toggles.png" offImage="onoff_toggles.png" translatesAutoresizingMaskIntoConstraints="NO" id="IME-aQ-N0D">
+                                <rect key="frame" x="519" y="489" width="51" height="31"/>
+                                <connections>
+                                    <action selector="SwitchChanged10:" destination="BYZ-38-t0r" eventType="valueChanged" id="X5S-FD-TgS"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Mfh-Pq-ank" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="0Hu-YX-hfi"/>
+                            <constraint firstItem="RG6-Jh-xDP" firstAttribute="top" secondItem="Dby-kr-9hT" secondAttribute="bottom" constant="6" id="0pj-hH-ETo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IME-aQ-N0D" secondAttribute="trailing" constant="12" id="2Tx-jp-abT"/>
+                            <constraint firstItem="8J4-7S-bqh" firstAttribute="top" secondItem="Mfh-Pq-ank" secondAttribute="bottom" constant="47" id="34Y-ug-Dg3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Q5A-Tb-jBS" secondAttribute="trailing" constant="10" id="3eU-JP-DhV"/>
+                            <constraint firstItem="3QI-2f-ygJ" firstAttribute="top" secondItem="UOW-1J-WZC" secondAttribute="bottom" constant="6" id="512-O8-CBH"/>
+                            <constraint firstItem="UOW-1J-WZC" firstAttribute="top" secondItem="Vsl-6T-EZd" secondAttribute="bottom" constant="5" id="5Na-dn-EO2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6mc-ve-zmb" secondAttribute="trailing" constant="12" id="5PQ-xC-VR0"/>
+                            <constraint firstItem="huc-jW-7a2" firstAttribute="top" secondItem="C9i-3o-1Y1" secondAttribute="bottom" constant="5" id="5t8-Rs-oeA"/>
+                            <constraint firstItem="7XH-fc-h9h" firstAttribute="top" secondItem="QXK-Ux-1uP" secondAttribute="bottom" constant="16" id="6FP-qQ-wYA"/>
+                            <constraint firstItem="yAB-1b-uvQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="72a-LX-1Hc"/>
+                            <constraint firstItem="FUU-XA-iAg" firstAttribute="top" secondItem="7XH-fc-h9h" secondAttribute="bottom" constant="21" id="7Q3-FI-fxo"/>
+                            <constraint firstItem="Ktz-Bi-oYT" firstAttribute="top" secondItem="IME-aQ-N0D" secondAttribute="bottom" constant="6" id="8NU-RA-X7Z"/>
+                            <constraint firstItem="UOW-1J-WZC" firstAttribute="leading" secondItem="iay-D3-sMR" secondAttribute="trailing" constant="20" id="Aic-yn-dXs"/>
+                            <constraint firstItem="yAB-1b-uvQ" firstAttribute="top" secondItem="wcL-zm-seU" secondAttribute="bottom" constant="52" id="B6U-uD-RGs"/>
+                            <constraint firstItem="3QI-2f-ygJ" firstAttribute="leading" secondItem="QXK-Ux-1uP" secondAttribute="trailing" constant="20" id="BQn-VQ-SwE"/>
+                            <constraint firstItem="KOZ-Nz-FWo" firstAttribute="leading" secondItem="C2Z-yN-R1I" secondAttribute="trailing" constant="20" id="BYa-Hs-Y14"/>
+                            <constraint firstItem="JxY-wS-2Ha" firstAttribute="leading" secondItem="4J6-zm-Wvq" secondAttribute="trailing" constant="20" id="Byf-vz-BLg"/>
+                            <constraint firstItem="Vsl-6T-EZd" firstAttribute="top" secondItem="huc-jW-7a2" secondAttribute="bottom" constant="6" id="CVH-2P-fEg"/>
+                            <constraint firstItem="6mc-ve-zmb" firstAttribute="leading" secondItem="eO6-Wr-EId" secondAttribute="trailing" constant="20" id="DB8-hK-uhA"/>
+                            <constraint firstItem="yE6-ig-yIp" firstAttribute="top" secondItem="WwR-CO-y5q" secondAttribute="bottom" constant="21" id="EvH-vf-zSP"/>
+                            <constraint firstItem="QXK-Ux-1uP" firstAttribute="top" secondItem="iay-D3-sMR" secondAttribute="bottom" constant="21" id="Fuk-IS-gwp"/>
+                            <constraint firstItem="Dby-kr-9hT" firstAttribute="top" secondItem="KOZ-Nz-FWo" secondAttribute="bottom" constant="5" id="H4S-Z2-5ww"/>
+                            <constraint firstItem="6mc-ve-zmb" firstAttribute="top" secondItem="Q5A-Tb-jBS" secondAttribute="bottom" constant="20" id="IY1-ct-waj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Dby-kr-9hT" secondAttribute="trailing" constant="12" id="JeC-z1-DWM"/>
+                            <constraint firstItem="g8Z-AA-lk9" firstAttribute="top" secondItem="yAB-1b-uvQ" secondAttribute="bottom" constant="52" id="KcJ-rd-chY"/>
+                            <constraint firstItem="Q5A-Tb-jBS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="LZS-ge-IVc"/>
+                            <constraint firstItem="Gx6-FW-gnO" firstAttribute="top" secondItem="8J4-7S-bqh" secondAttribute="bottom" constant="52" id="NTr-21-5mi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KOZ-Nz-FWo" secondAttribute="trailing" constant="12" id="NUy-lE-1iq"/>
+                            <constraint firstItem="8J4-7S-bqh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="OFX-tx-kb3"/>
+                            <constraint firstItem="C2Z-yN-R1I" firstAttribute="top" secondItem="eO6-Wr-EId" secondAttribute="bottom" constant="21" id="Pmk-qA-PKi"/>
+                            <constraint firstItem="IME-aQ-N0D" firstAttribute="leading" secondItem="7XH-fc-h9h" secondAttribute="trailing" constant="20" id="Pt7-dp-dQK"/>
+                            <constraint firstItem="JxY-wS-2Ha" firstAttribute="leading" secondItem="4J6-zm-Wvq" secondAttribute="trailing" constant="20" id="RDh-fE-v2j"/>
+                            <constraint firstItem="wvc-SY-bGn" firstAttribute="top" secondItem="wo0-0k-9mL" secondAttribute="bottom" constant="21" id="RTj-cm-6xr"/>
+                            <constraint firstItem="4J6-zm-Wvq" firstAttribute="top" secondItem="yE6-ig-yIp" secondAttribute="bottom" constant="16" id="SBe-F2-E7Y"/>
+                            <constraint firstItem="Mfh-Pq-ank" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="UcD-ZV-5RM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Vsl-6T-EZd" secondAttribute="trailing" constant="12" id="Ux1-G1-otN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Q5A-Tb-jBS" secondAttribute="trailing" constant="78" id="V7O-1O-n2q"/>
+                            <constraint firstItem="JxY-wS-2Ha" firstAttribute="top" secondItem="RG6-Jh-xDP" secondAttribute="bottom" constant="5" id="WIe-qe-gCZ"/>
+                            <constraint firstItem="RG6-Jh-xDP" firstAttribute="leading" secondItem="yE6-ig-yIp" secondAttribute="trailing" constant="20" id="Wdn-LA-dkv"/>
+                            <constraint firstItem="wo0-0k-9mL" firstAttribute="top" secondItem="HAf-6S-EM6" secondAttribute="bottom" constant="16" id="Wth-yL-BNy"/>
+                            <constraint firstItem="Dby-kr-9hT" firstAttribute="leading" secondItem="WwR-CO-y5q" secondAttribute="trailing" constant="20" id="aTh-1a-iRP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="huc-jW-7a2" secondAttribute="trailing" constant="12" id="b3l-Lh-ddi"/>
+                            <constraint firstItem="HAf-6S-EM6" firstAttribute="top" secondItem="4J6-zm-Wvq" secondAttribute="bottom" constant="21" id="czw-s4-7VZ"/>
+                            <constraint firstItem="WwR-CO-y5q" firstAttribute="top" secondItem="C2Z-yN-R1I" secondAttribute="bottom" constant="16" id="dLW-ft-Ct6"/>
+                            <constraint firstItem="HI3-Ks-ZKc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="ecb-0p-mhD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RG6-Jh-xDP" secondAttribute="trailing" constant="12" id="gk6-f5-VQU"/>
+                            <constraint firstItem="IME-aQ-N0D" firstAttribute="top" secondItem="3QI-2f-ygJ" secondAttribute="bottom" constant="5" id="gv0-aE-yZ5"/>
+                            <constraint firstItem="Vsl-6T-EZd" firstAttribute="leading" secondItem="wvc-SY-bGn" secondAttribute="trailing" constant="20" id="ias-ea-UNL"/>
+                            <constraint firstItem="Q5A-Tb-jBS" firstAttribute="leading" secondItem="WB8-ee-F0p" secondAttribute="trailing" constant="34" id="kDS-zM-vaA"/>
+                            <constraint firstItem="zaT-lm-2ag" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kMv-4W-54E"/>
+                            <constraint firstItem="HI3-Ks-ZKc" firstAttribute="top" secondItem="g8Z-AA-lk9" secondAttribute="bottom" constant="52" id="l2g-8d-yuv"/>
+                            <constraint firstItem="Gx6-FW-gnO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="lJv-2A-Cik"/>
+                            <constraint firstItem="6mc-ve-zmb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="104" id="mLR-Xg-xVg"/>
+                            <constraint firstItem="C9i-3o-1Y1" firstAttribute="top" secondItem="JxY-wS-2Ha" secondAttribute="bottom" constant="6" id="mkH-eS-5DS"/>
+                            <constraint firstItem="Q5A-Tb-jBS" firstAttribute="leading" secondItem="WB8-ee-F0p" secondAttribute="trailing" constant="10" id="oUF-nz-VqS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3QI-2f-ygJ" secondAttribute="trailing" constant="12" id="oeq-Qf-Xvp"/>
+                            <constraint firstItem="iay-D3-sMR" firstAttribute="top" secondItem="wvc-SY-bGn" secondAttribute="bottom" constant="16" id="okp-r5-JUd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="C9i-3o-1Y1" secondAttribute="trailing" constant="12" id="p3t-iU-eay"/>
+                            <constraint firstItem="KOZ-Nz-FWo" firstAttribute="top" secondItem="6mc-ve-zmb" secondAttribute="bottom" constant="6" id="qYe-ua-jnI"/>
+                            <constraint firstItem="g8Z-AA-lk9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="r9J-Vj-aUB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="UOW-1J-WZC" secondAttribute="trailing" constant="12" id="sCK-7k-eGv"/>
+                            <constraint firstItem="huc-jW-7a2" firstAttribute="leading" secondItem="wo0-0k-9mL" secondAttribute="trailing" constant="20" id="uGL-O8-TMU"/>
+                            <constraint firstItem="WB8-ee-F0p" firstAttribute="top" secondItem="zaT-lm-2ag" secondAttribute="bottom" constant="22" id="vN7-3r-Dmo"/>
+                            <constraint firstItem="wcL-zm-seU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="xDd-Vi-Nk1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JxY-wS-2Ha" secondAttribute="trailing" constant="12" id="xYa-04-seW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ktz-Bi-oYT" secondAttribute="trailing" constant="12" id="xdt-xR-fur"/>
+                            <constraint firstItem="eO6-Wr-EId" firstAttribute="top" secondItem="WB8-ee-F0p" secondAttribute="bottom" constant="26" id="yQu-qW-bIn"/>
+                            <constraint firstItem="Ktz-Bi-oYT" firstAttribute="leading" secondItem="FUU-XA-iAg" secondAttribute="trailing" constant="20" id="ysy-ea-jEO"/>
+                            <constraint firstItem="zaT-lm-2ag" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="z3N-5h-v4d"/>
+                            <constraint firstItem="wcL-zm-seU" firstAttribute="top" secondItem="Gx6-FW-gnO" secondAttribute="bottom" constant="52" id="zAi-sN-33w"/>
+                            <constraint firstItem="C9i-3o-1Y1" firstAttribute="leading" secondItem="HAf-6S-EM6" secondAttribute="trailing" constant="20" id="zcm-NQ-45O"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="V7O-1O-n2q"/>
+                                <exclude reference="kDS-zM-vaA"/>
+                                <exclude reference="IY1-ct-waj"/>
+                                <exclude reference="Byf-vz-BLg"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="Switch00" destination="6mc-ve-zmb" id="tz7-gP-IPj"/>
+                        <outlet property="Switch01" destination="KOZ-Nz-FWo" id="RbA-Pd-nVB"/>
+                        <outlet property="Switch02" destination="Dby-kr-9hT" id="EPY-vx-lfO"/>
+                        <outlet property="Switch03" destination="RG6-Jh-xDP" id="dqX-ZE-qb3"/>
+                        <outlet property="Switch04" destination="JxY-wS-2Ha" id="zlS-1i-YDS"/>
+                        <outlet property="Switch05" destination="C9i-3o-1Y1" id="Jnh-T8-gXN"/>
+                        <outlet property="Switch06" destination="huc-jW-7a2" id="VLa-lo-gB0"/>
+                        <outlet property="Switch07" destination="Vsl-6T-EZd" id="rad-Bp-6dW"/>
+                        <outlet property="Switch08" destination="UOW-1J-WZC" id="Jxr-4y-zEX"/>
+                        <outlet property="Switch09" destination="3QI-2f-ygJ" id="tlp-kf-GGS"/>
+                        <outlet property="Switch10" destination="IME-aQ-N0D" id="nNG-El-1c8"/>
+                        <outlet property="Switch11" destination="Ktz-Bi-oYT" id="3XO-ox-ejD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="364" y="347"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="on_toggles.png" width="203" height="64"/>
+        <image name="onoff_toggles.png" width="204" height="64"/>
+    </resources>
+</document>
