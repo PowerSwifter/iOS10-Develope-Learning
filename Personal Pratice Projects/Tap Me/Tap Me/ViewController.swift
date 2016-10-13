@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     
     var count = 0
     var seconds = 0
-    var timer  = NSTimer()
+    var timer  = Timer()
     
     
     @IBAction func buttonPressed(){
@@ -33,8 +33,8 @@ class ViewController: UIViewController {
     func setupGame() {
         seconds = 5
         count = 0
-        timer = NSTimer.scheduledTimerWithTimeInterval(
-            1.0,
+        timer = Timer.scheduledTimer(
+            timeInterval: 1.0,
             target: self,
             selector: #selector(ViewController.subtractTime),
             userInfo: nil,
@@ -66,16 +66,16 @@ class ViewController: UIViewController {
             let timeAlert = UIAlertController(
                 title: "Time is up",
                 message: "You scored \(count) points",
-                preferredStyle: UIAlertControllerStyle.Alert)
+                preferredStyle: UIAlertControllerStyle.alert)
             
             timeAlert.addAction(UIAlertAction(
                 title: "Play Again",
-                style: UIAlertActionStyle.Default,
+                style: UIAlertActionStyle.default,
                 handler: {
                     action in self.setupGame()}
                 ))
             timer.invalidate()
-            presentViewController(timeAlert, animated: true, completion:nil)
+            present(timeAlert, animated: true, completion:nil)
         }
     }
 

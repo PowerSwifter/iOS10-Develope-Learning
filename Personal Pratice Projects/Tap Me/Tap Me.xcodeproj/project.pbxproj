@@ -253,15 +253,18 @@
 					8BC35C821D27E0B30018766B = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = ZK629W38T6;
+						LastSwiftMigration = 0800;
 					};
 					8BC35C961D27E0B30018766B = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = ZK629W38T6;
+						LastSwiftMigration = 0800;
 						TestTargetID = 8BC35C821D27E0B30018766B;
 					};
 					8BC35CA11D27E0B30018766B = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = ZK629W38T6;
+						LastSwiftMigration = 0800;
 						TestTargetID = 8BC35C821D27E0B30018766B;
 					};
 				};
@@ -482,6 +485,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Boshi.Tap-Me";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -493,6 +497,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Boshi.Tap-Me";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -504,6 +509,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Boshi.Tap-MeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tap Me.app/Tap Me";
 			};
 			name = Debug;
@@ -516,6 +522,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Boshi.Tap-MeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tap Me.app/Tap Me";
 			};
 			name = Release;
@@ -527,6 +534,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Boshi.Tap-MeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Tap Me";
 			};
 			name = Debug;
@@ -538,6 +546,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Boshi.Tap-MeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Tap Me";
 			};
 			name = Release;

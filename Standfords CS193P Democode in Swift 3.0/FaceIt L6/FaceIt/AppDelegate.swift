@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Tap Me
+//  FaceIt
 //
-//  Created by Boshi Li on 2016/7/2.
-//  Copyright © 2016年 Boshi Li. All rights reserved.
+//  Created by CS193p Instructor.
+//  Copyright © 2016 Stanford University. All rights reserved.
 //
 
 import UIKit
