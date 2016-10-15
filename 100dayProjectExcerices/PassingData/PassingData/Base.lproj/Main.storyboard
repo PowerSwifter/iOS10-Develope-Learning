@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="S9b-UE-LY7">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--First View-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="PassingData" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="J3x-XT-h7M">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardAppearance="alert"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="J3x-XT-h7M" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="2fh-Y2-EPB"/>
+                            <constraint firstItem="J3x-XT-h7M" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="4Hx-ja-sW7"/>
+                            <constraint firstItem="J3x-XT-h7M" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="a3e-ht-Nxe"/>
+                            <constraint firstAttribute="bottom" secondItem="J3x-XT-h7M" secondAttribute="bottom" constant="20" symbolic="YES" id="ylX-Ai-lhI"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="First View" id="rld-wR-jnH">
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="4cB-8b-ax8">
+                            <connections>
+                                <segue destination="Qgg-BW-k9a" kind="show" id="KV6-o8-jo9"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="firstViewTextField" destination="J3x-XT-h7M" id="s5Q-2c-5oS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1901.5999999999999" y="726.38680659670172"/>
+        </scene>
+        <!--Second View-->
+        <scene sceneID="YBB-0e-Hs2">
+            <objects>
+                <viewController id="Qgg-BW-k9a" customClass="SecondViewController" customModule="PassingData" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qgz-wp-F62"/>
+                        <viewControllerLayoutGuide type="bottom" id="p0e-r6-him"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UbI-9E-boA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mxA-aP-NX2">
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="mxA-aP-NX2" secondAttribute="trailing" id="FJV-9m-YY0"/>
+                            <constraint firstItem="mxA-aP-NX2" firstAttribute="top" secondItem="Qgz-wp-F62" secondAttribute="bottom" constant="20" id="Keg-hz-CDf"/>
+                            <constraint firstItem="mxA-aP-NX2" firstAttribute="leading" secondItem="UbI-9E-boA" secondAttribute="leadingMargin" id="sT3-lg-pDi"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Second View" id="MRE-7w-3Fd"/>
+                    <connections>
+                        <outlet property="savaMessageLabel" destination="mxA-aP-NX2" id="DDe-h8-tm8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MyV-DI-meZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2621.5999999999999" y="725.48725637181417"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0ft-yV-Uxs">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="S9b-UE-LY7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GHt-mZ-vyJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="MgU-xJ-MfU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qYr-lE-zjn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1183" y="726"/>
+        </scene>
+    </scenes>
+</document>
