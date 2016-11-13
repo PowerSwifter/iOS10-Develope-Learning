@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func refreshTimeBtn(sender: UIButton) {
-        let timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: refreshTimer)
+        let timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: {_ in })
         timer.fire()
         
     }

@@ -15,8 +15,21 @@ class ViewController: UIViewController {
         firstViewTextField.becomeFirstResponder()
     }
 
-    @IBOutlet weak var firstViewTextField: UITextView!
+    @IBOutlet weak var firstViewTextField: UITextView!{
+        didSet{
+            changeTextProperites(anyLabel: firstViewTextField)
+        }
 
+    }
+
+    func changeTextProperites(anyLabel: AnyObject){
+        if let label = anyLabel as? UITextView{
+            label.textColor = UIColor.gray
+            label.font = UIFont.systemFont(ofSize: 30)
+        }
+        
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         savedMessage = firstViewTextField.text
     }
